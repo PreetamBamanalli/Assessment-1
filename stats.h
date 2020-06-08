@@ -23,12 +23,19 @@
 
 /* Add Your Declarations and Function Comments here */ 
 void sort_array(unsigned char *test);
+/* sort_array function sorts the array in descending order with input parameter as the address of the array given*/
 unsigned char find_minimum(unsigned char *test);
+/* find_maximum function returns maximum of the array with the same return type as the array i.e unsigned char input parameter as the address of the array given*/
 unsigned char find_maximum(unsigned char *test);
+/* find_maximum function returns minimum of the array with the same return type as the array i.e unsigned char input parameter as the address of the array given*/
 float find_mean(unsigned char *test);
+/* find_mean function returns mean of the array with the return type as float input parameter as the address of the array given*/
 float find_median(unsigned char *test);
+/* find_median function returns median of the array with the return type as float input parameter as the address of the array given*/
 void print_array(unsigned char *test);
+/* print_array prints the given array in 5X8 format*/
 void print_statistics(unsigned char *test);
+/* print_statistics prints the maximum,mininum,mean and median of the given array*/
 
 /**
  * @brief <Add Brief Description of Function Here>
