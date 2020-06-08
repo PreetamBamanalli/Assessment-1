@@ -14,14 +14,21 @@
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Preetam Bamanalli>
+ * @date <06/07/2020>
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
+void sort_array(unsigned char *test);
+unsigned char find_minimum(unsigned char *test);
+unsigned char find_maximum(unsigned char *test);
+float find_mean(unsigned char *test);
+float find_median(unsigned char *test);
+void print_array(unsigned char *test);
+void print_statistics(unsigned char *test);
 
 /**
  * @brief <Add Brief Description of Function Here>
